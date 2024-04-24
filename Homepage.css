@@ -1,0 +1,190 @@
+section {padding: 5rem 9%;}
+
+
+.home{ align-items: center;}
+
+p{font-size: large;}
+
+body{background-image: linear-gradient(to bottom, #e8eddf 0%, #e8eddf 50%, gray 100%, gray 200%);
+min-height: 100vh;
+margin: 0;}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  background-color: #333;
+
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+nav ul li img {
+  vertical-align: middle; /* Align the logo vertically */
+  width: 100px; /* Adjust the width of the logo as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-card {
+  background-color: #edefee;
+  padding-bottom: 1rem;
+  height: 25em;
+  width: 25em;
+  display: inline-block;
+  margin: 60px 10px;
+
+}
+
+.menu-card>img {
+  height: 13em;
+  width: 25em;
+  object-fit: cover;
+
+
+}
+
+.menu-card-content {
+  margin: 0.5rem 2rem 1rem 2rem;
+}
+
+.menu-card-content>h1 {
+  font-size: 2.2rem;
+  margin: 0;
+}
+
+.menu-card-content>h3 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+footer {
+  background-color: #333;
+  padding: 20px 0;
+  color: #fff;
+}
+
+/*Footer/
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+*/
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+}
+
+
+footer {
+  background-color: #333;
+  padding: 20px 0;
+  color: #fff;
+} 
+
+div a{
+  text-decoration: none;
+  color: #00742d;
+}
+
+div a:hover{
+  color: #00742caf;
+}
+
+.design{
+  
+margin-top: 5rem;
+margin-left: 5rem;
+margin-right: 5rem;
+  background-color: #fff;
+
+}
+
+.design >img{
+
+  padding-right: 0;
+  margin-right: 0;
+  width: 5em;
+}
